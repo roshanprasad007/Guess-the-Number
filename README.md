@@ -1,4 +1,13 @@
-Hello everyone, 
-If anyone has an interest in this project, just try to decrease the score when the user enters negative numbers and a number greater than 25.
+<h2 align="center">Hello everyone, </h2>
 
-Thank You guys❤.
+> [!note]  
+> If anyone has an interest in this project, just try to decrease the score when the user enters negative numbers and a number greater than 25.
+
+
+
+
+
+<p align="center">Thank You guys❤.</p>
+
+
+
