@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+  background-color: #000;
+  color: white;
+}
+.title {
+  padding-top: 2rem;
+  margin-top: 1rem;
+  font-size: 4rem;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 63%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-bottom: 5rem;
+}
+.gameplace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: #ffffff 2px 3px 25px 0px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-bottom: 5rem;
+}
+.notitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding-top: 2rem;
+  margin-bottom: 0.3rem;
+}
+.cond {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+.guess {
+  display: block;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.guess::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+}
+.guess[type='number'] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.secrtNumber {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.message {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.scores {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 1rem;
+}
+.triesno {
+  font-size: 1.5rem;
+}
+.btns {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.btn {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  font-size: 2.2rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.btn:hover {
+  background-color: #de6262;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+.dark {
+  font-size: 3rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border: none;
+}
+.btn,
+.light {
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+/*responsive */
+@media (max-width: 1255px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 630px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .notitle {
+    font-size: 1rem;
+  }
+  .gameplace {
+    max-width: 400px;
+  }
+  .message {
+    font-size: 1.5rem;
+  }
+  .triesno {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  .btns {
+    gap: 5rem;
+  }
+}
