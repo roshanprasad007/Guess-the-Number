@@ -52,4 +52,5 @@ document.querySelector('.again').addEventListener('click', function () {
   displayMessage('Start Guessing');
   document.querySelector('body').style.backgroundColor = '#000';
   document.querySelector('.guess').value = ' ';
+  document.querySelector('.gameplace').style.boxShadow = '#ffffff 2px 3px 25px 0px';
 });
